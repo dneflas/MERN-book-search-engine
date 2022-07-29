@@ -6,11 +6,11 @@ const resolvers = {
   Query: {
     me: async (parent, args, context) => {
       if (context.user) {
-        const user = await User.findOne({ _id: context.user._id })
+        const userData = await User.findOne({ _id: context.user._id })
           .select("-__v -password")
           .populate("savedBooks");
 
-        return user;
+        return userData;
       }
       throw new AuthenticationError("You are not logged in");
     },
