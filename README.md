@@ -1,10 +1,10 @@
-# MERN Book Search Engine
+# MERN Book Search Engine 📚🔍
 
 ![license badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
 
-A full-stackGoogle Books API search engine built with a RESTful API, and refactored to be a GraphQL API with Apollo Server, This application was built using the MERN stack, and the following technologies:
+A full-stack Google Books API search engine built with a RESTful API, and refactored to be a GraphQL API with Apollo Server, This application was built using the MERN stack, and the following technologies:
 
 - MongoDB
 - Mongoose ODM
